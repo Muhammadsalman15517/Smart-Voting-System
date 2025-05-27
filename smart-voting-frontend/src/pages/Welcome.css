@@ -1,0 +1,90 @@
+.welcome-wrapper {
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: lavender;
+  width: 1280px;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left - Card */
+.welcome-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  animation: slideInLeft 1s ease-out;
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation: fadeIn 2s ease-in-out;
+  line-height: 1.3;
+  color: black;
+}
+
+/* Right - Image */
+.right-container img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  animation: zoomIn 1.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .welcome-wrapper {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .welcome-card {
+    max-width: 100%;
+  }
+
+  .right-container img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,61 @@
+.voting-container {
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: lavender;
+  width: 1280px;
+
+}
+
+.voting-card {
+
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background-color: white;
+  max-width: 480px;
+  text-align: center;
+}
+
+.voting-card label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.voting-card select,
+.voting-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.voting-card button {
+  padding: 12px;
+  background-color: #73d99a;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.voting-card button:hover {
+  background-color: #0056b3;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.half {
+  flex: 1;
+}

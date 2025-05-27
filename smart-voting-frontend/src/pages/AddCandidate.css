@@ -1,0 +1,45 @@
+/* src/pages/AddCandidate.css */
+.add-candidate-container {
+  min-height: 200px;
+  background: #f7f9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.add-candidate-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.add-candidate-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-candidate-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.add-candidate-card button {
+  background: #73d99a;
+  color:black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+

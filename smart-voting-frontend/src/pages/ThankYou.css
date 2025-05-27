@@ -1,0 +1,54 @@
+.thankyou-container {
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: lavender;
+  width: 1280px;
+}
+
+.thankyou-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.vote-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.candidate-box {
+  font-weight: bold;
+}
+
+.vote-box {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.live-ranking {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 8px;
+  background-color: #f9fcff;
+}
+
+.live-ranking h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.live-ranking ul {
+  padding-left: 20px;
+  font-weight: bold;
+}
