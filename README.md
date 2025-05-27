@@ -21,9 +21,6 @@ A modern, secure and user-friendly smart voting system developed using **ReactJS
 | React Router DOM     | TypeORM ORM       |              |
 | Axios API Handling   | REST API          |              |
 
-## 📸 Screenshots
-
-> Add screenshots by dragging them here (optional, recommended)
 
 ## ⚙️ Setup Instructions
 
